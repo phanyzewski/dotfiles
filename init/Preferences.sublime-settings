@@ -1,10 +1,10 @@
 {
-	"color_scheme": "Packages/Color Scheme - Default/Solarized (Dark).tmTheme",
+	"color_scheme": "Packages/Color Scheme - Default/Monokai.sublime-color-scheme",
 	"default_encoding": "UTF-8",
 	"default_line_ending": "unix",
 	"detect_indentation": false,
 	"draw_white_space": "all",
-	"ensure_newline_at_eof_on_save": false,
+	"ensure_newline_at_eof_on_save": true,
 	"file_exclude_patterns":
 	[
 		".DS_Store",
@@ -15,6 +15,7 @@
 		".Spotlight-V100",
 		".Trashes"
 	],
+	"find_selected_text": true,
 	"folder_exclude_patterns":
 	[
 		".git",
@@ -32,10 +33,12 @@
 	[
 		80
 	],
+	"save_on_focus_lost": true,
+	"scroll_past_end": true,
 	"show_encoding": true,
 	"show_line_endings": true,
 	"tab_size": 2,
-	"translate_tabs_to_spaces": false,
+	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
 	"word_wrap": true
 }
