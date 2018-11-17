@@ -1,5 +1,6 @@
 # Add `~/bin` to the `$PATH`
 export PATH="$PATH:/usr/local/bin:/usr/local/sbin:/bin:/sbin:$HOME/bin";
+export LIBRARY_PATH=$LIBRARY_PATH:/usr/local/opt/openssl/lib/
 
 # Load the shell dotfiles, and then some:
 # * ~/.path can be used to extend `$PATH`.
@@ -50,3 +51,8 @@ complete -W "NSGlobalDomain" defaults;
 
 # Add `killall` tab completion for common apps
 complete -o "nospace" -W "Contacts Calendar Dock Finder Mail Safari iTunes SystemUIServer Terminal Twitter" killall;
+
+# TS CLI
+export PATH="$PATH:/Users/paul/teamsnap/ts_cli/bin"
+export DOCKER_ENABLED=true
+eval "$(rbenv init -)"

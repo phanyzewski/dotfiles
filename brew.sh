@@ -34,13 +34,14 @@ fi;
 brew install wget --with-iri
 
 # Install GnuPG to enable PGP-signing commits.
-# brew install gnupg
+brew install gnupg
+brew install gnupg2
 
 # Install more recent versions of some macOS tools.
 brew install vim --with-override-system-vi
 brew install grep
 brew install openssh
-# brew install screen
+brew install screen
 # brew install homebrew/php/php56 --with-gmp
 
 # # Install font tools.
@@ -80,7 +81,7 @@ brew install ack
 #brew install exiv2
 brew install git
 brew install git-lfs
-# brew install imagemagick --with-webp
+brew install imagemagick --with-webp
 # brew install lua
 # brew install lynx
 # brew install p7zip
@@ -89,7 +90,7 @@ brew install git-lfs
 brew install rename
 # brew install rlwrap
 # brew install ssh-copy-id
-# brew install tree
+brew install tree
 # brew install vbindiff
 # brew install zopfli
 
@@ -97,10 +98,16 @@ brew install elixir
 brew install htop
 brew install postgresql
 brew install node
-brew install chruby
+# brew install chruby
+brew install rbenv
 brew install heroku
 brew install ruby
 brew install ruby-install
 brew install ripgrep
+brew install npm
+brew install libxml2
+brew install libxslt
+brew install exercism
+brew cask install java
 # Remove outdated versions from the cellar.
 brew cleanup
