@@ -52,7 +52,4 @@ complete -W "NSGlobalDomain" defaults;
 # Add `killall` tab completion for common apps
 complete -o "nospace" -W "Contacts Calendar Dock Finder Mail Safari iTunes SystemUIServer Terminal Twitter" killall;
 
-# TS CLI
-export PATH="$PATH:/Users/paul/teamsnap/ts_cli/bin"
-export DOCKER_ENABLED=true
-eval "$(rbenv init -)"
+# eval "$(rbenv init -)"

@@ -9,6 +9,9 @@ function doIt() {
 		--exclude ".DS_Store" \
 		--exclude ".osx" \
 		--exclude "bootstrap.sh" \
+		--exclude "ts_history.sh" \
+		--exclude "com.googlecode.iterm2.plist" \
+		--exclude "ts_setup.sh" \
 		--exclude "README.md" \
 		--exclude "LICENSE-MIT.txt" \
 		-avh --no-perms . ~;
